@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+
+body{
+    background-image: url("bg.webp");
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    
+}
+#clock-session{
+    font-size: 90px;
+    padding: 6 6 6 6;
+}
+.heading {
+    background-color: #f5f5f5;
+    color: #090909;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+
+
+}
+
+.time {
+    background: #090909;
+    color: #f5f5f5;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+
